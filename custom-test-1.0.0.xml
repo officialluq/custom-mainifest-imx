@@ -5,8 +5,12 @@
   <remote name="yocto_project"          fetch="https://git.yoctoproject.org"/>
   <remote name="oe"          fetch="https://github.com/openembedded"/>
   <remote name="freescale"   fetch="https://github.com/Freescale"/>
+  <remote name="author"   fetch="https://github.com/officialluq"/>
+  <remote name="flutter"   fetch="https://github.com/meta-flutter"/>
   <remote name="nxp-imx"     fetch="https://github.com/nxp-imx"/>
   <project name="poky" remote="yocto_project" path="sources/poky" revision="c5627ab06fc07221237b9a7059ac378ea80578f8" upstream="scarthgap"/>
+  <project name="meta-custom" remote="author" path="sources/meta-custom" revision="0c46e2f798e18c2340d0b59015a9eaf67203ce7e" upstream="main"/>
+  <project name="meta-flutter" remote="flutter" path="sources/meta-flutter" revision="0603164c022e394e5e8e2ac4f5b06556d5557556" upstream="scarthgap"/>
   <project name="meta-openembedded" remote="oe" path="sources/meta-openembedded" revision="1235dd4ed4a57e67683c045ad76b6a0f9e896b45" upstream="scarthgap"/>
   <project name="meta-freescale" remote="freescale" path="sources/meta-freescale" revision="01d9ff233a7ae41d39af436f9508103504708b58" upstream="scarthgap"/>
   <project name="meta-freescale-3rdparty" remote="freescale" path="sources/meta-freescale-3rdparty" revision="6c063450d464eb2f380443c7d9af1b94ce9b9d75" upstream="scarthgap"/>
